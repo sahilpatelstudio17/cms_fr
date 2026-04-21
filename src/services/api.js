@@ -2,7 +2,7 @@ import axios from "axios";
 import { beginLoading, endLoading, showToast } from "./ui";
 
 const ACCESS_TOKEN_KEY = "access_token";
-const DEFAULT_API_ORIGIN = "https://cms-6eiy.onrender.com";
+const DEFAULT_API_ORIGIN = "https://cms-20.onrender.com";
 
 function normalizeApiBaseUrl(baseUrl) {
   const trimmedBaseUrl = String(baseUrl || "").trim().replace(/\/+$/, "");
