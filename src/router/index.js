@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter,createWebHashHistory,createWebHistory } from "vue-router";
 
 import { useAuthStore } from "../stores/auth";
 import { showToast } from "../services/ui";
@@ -20,7 +20,7 @@ import UsersView from "../views/dashboard/UsersView.vue";
 import TeamManagementView from "../views/dashboard/TeamManagementView.vue";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
       path: "/",
